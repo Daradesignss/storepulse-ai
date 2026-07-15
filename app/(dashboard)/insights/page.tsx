@@ -25,25 +25,28 @@ export default function InsightsPage() {
 
       <div className="grid gap-5 lg:grid-cols-3">
         <InsightCard
-          icon={TrendingUp}
-          label="Growth"
-          title="Revenue recovered after March"
-          description="Sales dipped in March but grew steadily through June, ending 12% above last month."
-        />
+  icon={TrendingUp}
+  tone="growth"
+  label="Growth"
+  title="Revenue recovered after March"
+  description="Sales dipped in March but grew steadily through June, ending 12% above last month."
+/>
 
-        <InsightCard
-          icon={AlertTriangle}
-          label="Risk"
-          title="Returning customers declined"
-          description="Repeat purchases dropped by 8%, which may reduce long-term revenue stability."
-        />
+<InsightCard
+  icon={AlertTriangle}
+  tone="risk"
+  label="Risk"
+  title="Returning customers declined"
+  description="Repeat purchases dropped by 8%, which may reduce long-term revenue stability."
+/>
 
-        <InsightCard
-          icon={Lightbulb}
-          label="Opportunity"
-          title="Email is your strongest channel"
-          description="Email generated 42% of revenue and outperformed Instagram by 14 percentage points."
-        />
+<InsightCard
+  icon={Lightbulb}
+  tone="opportunity"
+  label="Opportunity"
+  title="Email is your strongest channel"
+  description="Email generated 42% of revenue and outperformed Instagram by 14 percentage points."
+/>
       </div>
 
       <Card>
@@ -64,9 +67,13 @@ export default function InsightsPage() {
 
         <div className="flex flex-wrap gap-3">
           {questions.map((question) => (
-            <Button key={question} variant="secondary">
-              {question}
-            </Button>
+            <Button
+  key={question}
+  variant="secondary"
+  className="justify-start text-left hover:border-indigo-300 hover:bg-indigo-50"
+>
+  {question}
+</Button>
           ))}
         </div>
       </Card>
