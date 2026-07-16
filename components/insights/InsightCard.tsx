@@ -54,7 +54,7 @@ export function InsightCard({
     <Card
       className={cn(
         "group relative overflow-hidden transition-all duration-300",
-        "hover:-translate-y-1 hover:shadow-xl",
+        "transform-gpu hover:-translate-y-2 hover:shadow-2xl",
         styles.border,
         styles.glow
       )}
