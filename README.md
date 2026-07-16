@@ -32,6 +32,32 @@ Users can upload a CSV export and instantly explore:
 The project demonstrates the complete product design process from UX thinking through responsive frontend implementation.
 
 ---
+## Product Screens
+
+### Landing Page
+
+![StorePulse AI landing page](./public/screenshots/landing-desktop.png)
+
+### Analytics Workspace
+
+![StorePulse AI dashboard](./public/screenshots/dashboard-desktop.png)
+
+### CSV Upload Flow
+
+![StorePulse AI upload page](./public/screenshots/upload-desktop.png)
+
+### Commerce Copilot
+
+![StorePulse AI insights page](./public/screenshots/insights-desktop.png)
+
+### Responsive Experience
+
+<p>
+  <img src="./public/screenshots/landing-mobile.png" width="280" alt="StorePulse AI mobile landing page" />
+  <img src="./public/screenshots/dashboard-mobile.png" width="280" alt="StorePulse AI mobile dashboard" />
+</p>
+
+---
 
 ## Features
 
